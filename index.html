@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="stylesheet" href="styles.css">
+    <title>Landing - Exercice 1</title>
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="brand">MonSite</div>
+        <nav id="nav">
+            <ul>
+                <li><a href="#" class="nav-link active" data-page="home">Accueil</a></li>
+                <li><a href="#" class="nav-link" data-page="about">À propos</a></li>
+                <li><a href="#" class="nav-link" data-page="services">Services</a></li>
+                <li><a href="#" class="nav-link" data-page="contact">Contact</a></li>
+            </ul>
+        </nav>
+        <!-- Menu Hamburger -->
+        <button class="hamburger" id="hamburger" aria-label="Menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+    </header>
+    <div class="container">
+
+
+        <main>
+            <section class="hero" aria-labelledby="hero-title">
+                <div class="hero-left">
+                    <h1 id="hero-title">Construis des interfaces modernes — commence ici</h1>
+                    <p>Apprends la mise en page responsive, la typographie, les composants et les micro-interactions.
+                    </p>
+                    <a href="#features" class="cta">Commencer</a>
+                </div>
+                <div class="hero-right" aria-hidden="true">
+                    <p style="font-weight:600;margin-bottom:0.5rem;">Aperçu</p>
+                    <p style="color:var(--muted)">Un bloc visuel pour équilibrer la mise en page.</p>
+                </div>
+            </section>
+
+            <section id="features" style="margin-top:1.5rem;">
+                <div class="features">
+                    <div class="card">
+                        <h3>Rapide</h3>
+                        <p style="color:var(--muted)">Performances et layout léger.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Responsive</h3>
+                        <p style="color:var(--muted)">S'adapte à tous les écrans.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Accessibilité</h3>
+                        <p style="color:var(--muted)">Focus visible, contrastes raisonnables.</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer style="margin-top:2rem;color:var(--muted)">© Ton Nom</footer>
+    </div>
+<script src="script.js"></script></body>
+
+</html>
